@@ -7,12 +7,12 @@ Simulaatori eesmärk on sarnaneda päris sisseastumisintervjuuga ja aidata sisse
 Projekt on loodud Informaatika õppekava suvepraktika raames Haridustehnoloogia õppekava jaoks, et aidata tulevastel sisseastujatel valmistuda päris sisseastumisintervjuuks ning vähendada nende ärevust.
 
 Kasutatud tehnoloogiad: 
-HTML5
-PHP Version 8.0.13
-MySQL 5.2.0-1.el9
-MariaDB 10.5.16
-phpmyadmin 5.2.0-1
-Apache/2.4.51
+HTML5, 
+PHP Version 8.0.13, 
+MySQL 5.2.0-1.el9, 
+MariaDB 10.5.16, 
+phpmyadmin 5.2.0-1, 
+Apache/2.4.51, 
 Javascript1.5
 
 Autorid: Merette Arula, Annabel Väljaots, Aron Paco Vunk, Rocco Kärson
