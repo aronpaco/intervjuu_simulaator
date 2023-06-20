@@ -19,7 +19,7 @@ Autorid: Merette Arula, Annabel Väljaots, Aron Paco Vunk, Rocco Kärson
 
 Paigaldusjuhend: kõik koodid koos taustapildi ja videotega panna ühise kaustana public_html kausta ning public_html-ist välja panna config.php, mis sisaldab andmebaasi paroole. Paroolid ja muu info edastatakse tellijale privaatselt. 
 
-Kasutusjuhend: https://docs.google.com/document/d/1OIkxcZxHBHJYRPfnxfvCjVvY_XQzZTq5JzYQqNb9s48/edit
+Kasutusjuhend: https://github.com/aronpaco/intervjuu_simulaator/blob/main/Kasutusjuhend.pdf
 
 
 Simulaator loeb sisse küsimused CSV failist mis on paigutatud intervjuu_simulaator kausta faili kysimused.csv. Selles failis on küsimused mida simulaator kasutajale näitab. 
