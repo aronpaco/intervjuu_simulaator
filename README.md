@@ -1,6 +1,6 @@
 Haridustehnoloogia õppekava sisseastumisintervjuu simulaator.
 
-![Pilt simulaatorist](“simulaator.png”)
+![Pilt simulaatorist](“simulaator.PNG”)
 
 Simulaatori eesmärk on sarnaneda päris sisseastumisintervjuuga ja aidata sisseastujatel valmistuda ning aru saada, mis neid ees ootab. Samuti annab simulaator õppejõududele ülevaate erinevatest inimestest, kes on huvitatud antud õppekavast ja harjutavad intervjuuks. Simulaator aitab vähendada sisseastujate ärevust ning ka tõsta tudengite kvaliteeti.
 
