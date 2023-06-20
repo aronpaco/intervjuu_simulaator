@@ -1,0 +1,2 @@
+# intervjuu_simulaator
+Intervjuu simulaator haridustehnoloogia õppekavale
