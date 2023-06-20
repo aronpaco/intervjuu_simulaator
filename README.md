@@ -25,5 +25,5 @@ Kasutusjuhend: https://docs.google.com/document/d/1OIkxcZxHBHJYRPfnxfvCjVvY_XQzZ
 Simulaator loeb sisse küsimused CSV failist mis on paigutatud intervjuu_simulaator kausta faili kysimused.csv. Selles failis on küsimused mida simulaator kasutajale näitab. 
 Täpsemad juhised, kuidas teha uut csv faili ja seda ülesse laadida on kasutusjuhendis. 
 
-Litsents: https://docs.google.com/document/d/1dXFMvTbulNX9Bkh9hXPofAMiy8o8iAxKnX65DNMQyws/edit 
-Andmebaasi loomise käsud: https://docs.google.com/document/d/1xePJYOna8YJ1ZUhD6GZpj-Glj8_o1FnUkx5FR8s_Jrw/edit
+Litsents: [embed]MYSQL.pdf[/embed]
+Andmebaasi loomise käsud:[embed]Litsents.pdf[/embed]
