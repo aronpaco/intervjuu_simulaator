@@ -1,0 +1,7 @@
+QuestionNumber;Question;Answer1;Score1;NextQuestion1;Answer2;Score2;NextQuestion2;Answer3;Score3;NextQuestion3;Answer4;Score4;NextQuestion4;
+0;Küsimus 0;Sinu amet: {sessionData.profession}.;1;1;Tere, {sessionData.name}.;1;1;Halb Vastus;-1;1;Hea vastus;1;1
+1;Küsimus 1;See vastus viib lõppu;1;END;See vastus viib küsimuse number 4 juurde;1;4;See vastus viib küsimuse number 0 juurde;-1;0;Järgmine küsimus;1;2
+2;Küsimus 2;See vastus annab 0 punkti;0;3;See vastus annab 10 punkti;10;3;See vastus annab -10 punkti;-10;3;See vastus annab 1 punkti;1;3
+3;Küsimus 3;Järgmine (1p);1;4;Ülejärgmine (5p);5;5;Eelmine (-1p);-1;2;Ülejärgmine (5p);5;5
+4;Küsimus 4;Järgmine (1p);1;5;Lõpp (5p);5;END;Eelmine (-1p);-1;3;Lõpp (5p);5;END
+5;Küsimus 5;Lõpp (1p);1;END;Lõpp (5p);5;END;Lõpp (1p);1;END;Lõpp (5p);5;END
