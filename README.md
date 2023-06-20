@@ -4,7 +4,7 @@ Haridustehnoloogia õppekava sisseastumisintervjuu simulaator.
 
 Simulaatori eesmärk on sarnaneda päris sisseastumisintervjuuga ja aidata sisseastujatel valmistuda ning aru saada, mis neid ees ootab. Samuti annab simulaator õppejõududele ülevaate erinevatest inimestest, kes on huvitatud antud õppekavast ja harjutavad intervjuuks. Simulaator aitab vähendada sisseastujate ärevust ning ka tõsta tudengite kvaliteeti.
 
-Projekt on loodud suvepraktika raames haridustehnoloogia õppekava jaoks, et aidata tulevastel sisseastujatel valmistuda päris sisseastumisintervjuuks ning vähendada nende ärevust.
+Projekt on loodud Informaatika õppekava suvepraktika raames Haridustehnoloogia õppekava jaoks, et aidata tulevastel sisseastujatel valmistuda päris sisseastumisintervjuuks ning vähendada nende ärevust.
 
 Kasutatud tehnoloogiad: 
 HTML5
