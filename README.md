@@ -31,7 +31,7 @@ Kui eelmainitud sammud on läbitud, tuleb järgmisena tekitada andmebaasi tabeli
 
 Andmetabeleid ja nende relatsioone visualiseerib järgnev Vertabelo andmebaasimudel:
 
-![](vertabelo.png)
+![](vertabelo.PNG)
 
 Järgnevalt tuleks config.php failiga samasse kausta luua uus kaust nimega "public_html". Public_html kausta tuleb luua uus kataloog/kaust nimega intervjuu_simulaator. Sellesse kausta tehke veel 4 kausta, nimedega intervjuu, statistika, tagasiside ja videod. Kaustadesse lisage kõik githubi repo failid (php, css, js, png) vastavalt sellele, mis kaustas need on. Intervjuu_simulaator kausta lisage kysimused.csv ja max_score.txt failid. Kui küsimuste faili on vaja muuta, siis selle täpsem kirjeldus on kasutusjuhendis.
 
