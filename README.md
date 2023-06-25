@@ -9,7 +9,6 @@ Projekt on loodud Informaatika õppekava suvepraktika raames Haridustehnoloogia 
 Kasutatud tehnoloogiad: 
 HTML5, 
 PHP Version 8.0.13, 
-MariaDB 10.5.16, 
 phpmyadmin 5.2.0-1, 
 Apache/2.4.51, 
 Javascript1.5
@@ -17,7 +16,7 @@ Javascript1.5
 Autorid: Merette Arula, Annabel Väljaots, Aron Paco Vunk, Rocco Kärson
 
 Paigaldusjuhend: 
-Andmebaasina kasutasime MariaDB-d.
+Andmebaasina kasutasime MYSQLi.
 
 Selleks, et simulaatorit paigaldada, tuleb kõigepealt leida sobiv veebimajutus, mis toetaks eelmainitud keeli. Veenduge, et teie valitud veebimajutusplatvorm toetab MySQL andmebaase.
 
@@ -27,7 +26,7 @@ Nüüd lisage config.php nimeline fail juurkataloogi. Ava fail ning muuda $serve
 
 NB!: Juhul, kui määrasite andmebaasi nimeks midagi muud kui "if22_Grupp1Tarkvaraarendus" peate ka config.php failis muutma $dbname järel jutumärkidesse sisestatud nime oma määratud nime vastu.
 
-Kui eelmainitud sammud on läbitud, tuleb järgmisena tekitada andmebaasi tabelid. Tabelite loomiseks vajalikud sql käsud on "MariaDB.txt" failis. Käsud saab kopeerida ning sisestada kasutades phpMyAdmin liidest, mis on saadaval enamus MySQL-i pakkuvatel veebimajutustel. Võimalus pääseda phpMyAdmin vaatele peaks olema leitav veebimajutusplatvormi juhtpaneelilt "Databases" või muu sarnase valiku alt. Sealt edasi leiate oma andmebaasi nime alt valiku "Impordi" (või "Import", sõltuvalt keelest). Valige või lohistage "MariaDB.txt" fail lehele. Ülejäänud sätteid pole vaja muuta. Vajutage "Impordi" nupule ning peaksite saama teate, et skripti käivitamine õnnestus.
+Kui eelmainitud sammud on läbitud, tuleb järgmisena tekitada andmebaasi tabelid. Tabelite loomiseks vajalikud sql käsud on "mysql.txt" failis. Käsud saab kopeerida ning sisestada kasutades phpMyAdmin liidest, mis on saadaval enamus MySQL-i pakkuvatel veebimajutustel. Võimalus pääseda phpMyAdmin vaatele peaks olema leitav veebimajutusplatvormi juhtpaneelilt "Databases" või muu sarnase valiku alt. Sealt edasi leiate oma andmebaasi nime alt valiku "Impordi" (või "Import", sõltuvalt keelest). Valige või lohistage "mysql.txt" fail lehele. Ülejäänud sätteid pole vaja muuta. Vajutage "Impordi" nupule ning peaksite saama teate, et skripti käivitamine õnnestus.
 
 Andmetabeleid ja nende relatsioone visualiseerib järgnev Vertabelo andmebaasimudel:
 
