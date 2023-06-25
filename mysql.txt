@@ -1,0 +1,86 @@
+-- Create database
+
+CREATE DATABASE IF NOT EXISTS if22_Grupp1Tarkvaraarendus;
+
+
+-- Table: admin
+CREATE TABLE admin (
+    id int  NOT NULL,
+    kasutajanimi varchar(40)  NOT NULL,
+    parool varchar(40)  NOT NULL,
+    oppejoud_id int  NOT NULL,
+    CONSTRAINT admin_pk PRIMARY KEY (id)
+);
+
+-- Table: kasutaja
+CREATE TABLE kasutaja (
+    id int  NOT NULL,
+    nimi varchar(50)  NOT NULL,
+    haridus varchar(50)  NOT NULL,
+    amet varchar(255)  NOT NULL,
+    huvid varchar(255)  NOT NULL,
+    CONSTRAINT kasutaja_pk PRIMARY KEY (id)
+) COMMENT 'Kasutaja vabatahtlikult sisestatud andmed
+';
+
+-- Table: kasutaja_vastab
+CREATE TABLE kasutaja_vastab (
+    id int  NOT NULL,
+    kasutaja_id int  NOT NULL,
+    tulemus_id int  NOT NULL,
+    CONSTRAINT kasutaja_vastab_pk PRIMARY KEY (id)
+);
+
+-- Table: oppejoud
+CREATE TABLE oppejoud (
+    id int  NOT NULL,
+    nimi varchar(40)  NOT NULL,
+    kirjeldus varchar(400)  NOT NULL,
+    CONSTRAINT oppejoud_pk PRIMARY KEY (id)
+);
+
+-- Table: tagasiside
+CREATE TABLE tagasiside (
+    id int  NOT NULL,
+    tagasiside varchar(400)  NOT NULL,
+    email varchar(40)  NULL,
+    nupp int  NOT NULL,
+    kysimus varchar(400)  NOT NULL,
+    kasutaja_id int  NOT NULL,
+    CONSTRAINT tagasiside_pk PRIMARY KEY (id)
+);
+
+-- Table: tulemus
+CREATE TABLE tulemus (
+    id int  NOT NULL,
+    ip_aadress varchar(40)  NOT NULL,
+    aeg_algus datetime  NOT NULL,
+    aeg_lopp datetime  NOT NULL,
+    soorituste_arv int  NOT NULL,
+    vastamata int  NOT NULL,
+    valesti int  NOT NULL,
+    oigesti int  NOT NULL,
+    vastamata_nr int  NOT NULL,
+    oigesti_nr int  NOT NULL,
+    valesti_nr int  NOT NULL,
+    CONSTRAINT tulemus_pk PRIMARY KEY (id)
+);
+
+-- foreign keys
+-- Reference: admin_oppejoud (table: admin)
+ALTER TABLE admin ADD CONSTRAINT admin_oppejoud FOREIGN KEY admin_oppejoud (oppejoud_id)
+    REFERENCES oppejoud (id);
+
+-- Reference: kasutaja_vastab_kasutaja (table: kasutaja_vastab)
+ALTER TABLE kasutaja_vastab ADD CONSTRAINT kasutaja_vastab_kasutaja FOREIGN KEY kasutaja_vastab_kasutaja (kasutaja_id)
+    REFERENCES kasutaja (id);
+
+-- Reference: kasutaja_vastab_tulemus (table: kasutaja_vastab)
+ALTER TABLE kasutaja_vastab ADD CONSTRAINT kasutaja_vastab_tulemus FOREIGN KEY kasutaja_vastab_tulemus (tulemus_id)
+    REFERENCES tulemus (id);
+
+-- Reference: tagasiside_kasutaja (table: tagasiside)
+ALTER TABLE tagasiside ADD CONSTRAINT tagasiside_kasutaja FOREIGN KEY tagasiside_kasutaja (kasutaja_id)
+    REFERENCES kasutaja (id);
+
+-- End of file.
